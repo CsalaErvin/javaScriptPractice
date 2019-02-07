@@ -1,3 +1,4 @@
+
 console.log('Dwarf ' + 1 + '. is in the mine.');
 console.log('Dwarf ' + 2 + '. is in the mine.');
 console.log('Dwarf ' + 3 + '. is in the mine.');
@@ -5,6 +6,13 @@ console.log('Dwarf ' + 4 + '. is in the mine.');
 console.log('Dwarf ' + 5 + '. is in the mine.');
 console.log('Dwarf ' + 6 + '. is in the mine.');
 console.log('Dwarf ' + 7 + '. is in the mine.');
+
+var dwarfCounter = 1;
+
+while (dwarfCounter <= 7 ) {
+  console.log('Dwarf ' + dwarfCounter + '. is in the mine.');
+  dwarfCounter++;
+}
 
 var year1 = 1976;
 var population1 = 1000;
@@ -30,3 +38,11 @@ console.log( 'In ' + year7 + ', ' + population7 + ' panda lived wild.');
 var year8 = 2013;
 var population8 = 1864;
 console.log( 'In ' + year8 + ', ' + population8 + ' panda lived wild.');
+
+var countdown = 10;
+
+while (countdown >= 1 ) {
+  console.log( + countdown +  ' s until the launch. ');
+  countdown--;
+}
+console.log( 'Rocket launch!!!');
