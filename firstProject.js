@@ -85,3 +85,16 @@ for (dwarfCounter; dwarfCounter <= 7; dwarfCounter++) {
   console.log('Dwarf ' + dwarfCounter + '. still sleeping at home.');
 }
 
+console.log( '');
+
+var month = 1; 
+for (var rabbitPopulation = 30; month <= 6; rabbitPopulation = rabbitPopulation*2)																			{
+  console.log('The number of rabbits in the Pacsirta Valley in the '+ month +'th month is ' + rabbitPopulation + '.')
+	month++;
+}
+
+var month = 7; 
+for (var rabbitPopulation = 2880; month <= 12; rabbitPopulation = rabbitPopulation*3)																			{
+  console.log('The number of rabbits in the Pacsirta Valley in the '+ month +'th month is ' + rabbitPopulation + '.')
+	month++;
+}
