@@ -75,13 +75,15 @@ console.log( 'Rocket launch!!!');
 console.log( '');
 
 var dwarfCounter = 1;
+var workingDwarves = 4;
+var totalDwarves = 7;
 
-while (dwarfCounter <= 4 ) {
+while (dwarfCounter <= workingDwarves ) {
   console.log('Dwarf ' + dwarfCounter + '. is in the mine.');
   dwarfCounter++;
 }
 
-for (dwarfCounter; dwarfCounter <= 7; dwarfCounter++) {
+for (dwarfCounter; dwarfCounter <= totalDwarves; dwarfCounter++) {
   console.log('Dwarf ' + dwarfCounter + '. still sleeping at home.');
 }
 
@@ -97,4 +99,18 @@ var month = 7;
 for (var rabbitPopulation = 2880; month <= 12; rabbitPopulation = rabbitPopulation*3)																			{
   console.log('The number of rabbits in the Pacsirta Valley in the '+ month +'th month is ' + rabbitPopulation + '.')
 	month++;
+}
+
+console.log( '');
+
+var totalBuslines = 20;
+var workingBus = 15;
+var busLines = 10;
+while (busLines <= workingBus){
+  console.log("On Bus line " + busLines + ". the traffic is smooth.");
+  busLines++;
+}
+
+for (busLines; busLines <= totalBuslines; busLines++){
+  console.log("On Bus line " + busLines + ". the traffic is stand.");
 }
